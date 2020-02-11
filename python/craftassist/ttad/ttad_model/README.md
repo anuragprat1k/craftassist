@@ -40,3 +40,5 @@ data = json.load(open('../data/ttad_model/dialogue_test_data.json'))
 exple = choice(data['test']['templated'])
 pprint((exple, ttad.parse(exple[0])))
 ```
+
+To use some pre-trained off the shelf models, you can fetch them from http://craftassist.s3-us-west-2.amazonaws.com/pubr/models_folder.tar.gz.
